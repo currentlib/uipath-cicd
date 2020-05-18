@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '936fa8e9-2dea-40b3-bf7e-1a57ba742e5f'
   imageRepository: 'uiapthrobot'
   containerRegistry: 'uipathrobotdevops.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: 'Dockerfile'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
